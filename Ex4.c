@@ -1,8 +1,7 @@
-#include <stdio.h>#include <stdio.h>
+#include <stdio.h>
 
 int main ()
 {
-   
     float peso, altura, IMC;
     printf("\n\n Calderon Vázquez Adolfo Angel");
     printf("\n\n Programa 4");
@@ -13,5 +12,5 @@ int main ()
     scanf("%f", &altura);
     IMC= peso /(altura*altura);
     printf("\n lA MASA MUSCULAR ES %f", IMC);
-    
     return 0;
+ }
